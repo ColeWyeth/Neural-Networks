@@ -1,7 +1,8 @@
 #This is a rudimentary neural network. I believe that I could solve more difficult problems by following the same format. 
+import Random
 
-n1 = [0,0]
-n2 = [0,0]
+n1 = [Random.rand,Random.rand]
+n2 = [Random.rand,Random.rand]
 neurons= [n1, n2]
 trainingSet = input("How many training vectors would you like to input?")
 
